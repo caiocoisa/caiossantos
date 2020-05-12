@@ -1,0 +1,32 @@
+body{
+  background-image: url(https://cdn.pixabay.com/photo/2016/04/12/22/35/watercolour-1325656_960_720.jpg);
+  background-size: auto 100vh;
+  font-family: arial;
+  height: 100vh;
+}
+.menu{
+  background-color: white;
+}
+.menu li{
+  list-style: none;
+}
+.menu ul{
+  display: flex;
+  justify-content:space-around;
+}
+a{
+  color: teal;
+  text-decoration: none;
+}
+/* Pseudo-classe 'hover' */
+a:hover{
+  text-decoration: underline;
+}
+.site-subtitle,
+.site-title{
+  color: teal;
+  text-align: center;
+}
+.site-subtitle{
+  font-style: italic;
+}
