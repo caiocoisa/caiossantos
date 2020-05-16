@@ -1,0 +1,69 @@
+/* soft CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+body{
+  display: grid;
+  font-size: 12px;
+  grid-template-rows: 10% 80% 10%;
+  height: 100vh;
+}
+header{
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+.head{
+  padding-left: 2em;
+}
+.head h1{
+  color: grey;
+  font-size: 2em;
+  font-family: 'Paytone One', sans-serif;
+  opacity: 0.3;
+}
+
+#content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  
+}
+.content p,
+.content h2{
+  text-align: center;
+}
+
+.content p{
+  font-family: 'Paytone One', sans-serif;
+  font-size: 1.2em;
+}
+.content a{
+  color: grey;
+  opacity: 0.4;
+}
+
+.content h2{
+  font-family: 'Metrophobic', sans-serif;
+  font-size: 4.5em;
+}
+
+#footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px; 
+}
+.footer span{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  color: gray;
+  font-size: 0.8em;
+  opacity: 0.5;
+}
